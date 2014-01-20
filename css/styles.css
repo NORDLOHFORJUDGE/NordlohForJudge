@@ -6496,7 +6496,7 @@ hr {
   transition: all .1s ease-in-out; }
 
 #headerwrap {
-  background: url(/img/kenton-county-court-house.jpg) no-repeat center top;
+  background: url(../img/kenton-county-court-house.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -6549,7 +6549,7 @@ hr {
   overflow: scroll; }
 
 #serviceswrap {
-  background: url(/img/services-bg.jpg) no-repeat center top;
+  background: url(../img/services-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -6574,7 +6574,7 @@ hr {
   margin-top: 150px; }
 
 #aboutwrap {
-  background: url(/img/about-bg.jpg) no-repeat center top;
+  background: url(../img/about-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -6599,7 +6599,7 @@ hr {
   margin-top: 150px; }
 
 #portwrap {
-  background: url(/img/portfolio-bg.jpg) no-repeat center top;
+  background: url(../img/portfolio-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -6632,7 +6632,7 @@ hr {
   color: #fff; }
 
 #sp-standout {
-  background: url(/img/sp-standout-bg.jpg) no-repeat center top;
+  background: url(../img/sp-standout-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
