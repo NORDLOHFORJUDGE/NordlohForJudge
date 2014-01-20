@@ -8,10 +8,7 @@ title: Christopher Nordloh
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1" id="responsive_headline">
-
-					<h1>Chris Nordloh</h1>
-					<h2>Elect For Kenton County<br>Distric Judge Division I</h2>
-					<h2>&#9733; 2014 &#9733;</h2>
+					{% include header.html %}
 					<div class="spacer"></div>
 					<i class="fa fa-angle-down"></i>
 				</div>
@@ -23,16 +20,13 @@ title: Christopher Nordloh
     <div class="container">
       <div class="row mt">
       	<div class="col-lg-8 col-lg-offset-2">
-      		<blockquote>I will work hard to show voters that, if elected, my twenty years experience of preparing and trying cases will serve the judgeship and public equally well. </blockquote>
-			<p class="pull-right">-Chris Nordloh</p>
+      		{% include welcome.html %}
       	</div>
       </div><!-- /row -->
     </div><!-- /.container -->
     
 
-
-
-	<!-- SERVICES SECTION -->
+	<!-- Highlights SECTION -->
 	<div id="services">
 		<div class="container">
 			<div class="row mt">
@@ -40,23 +34,21 @@ title: Christopher Nordloh
 					<i class="fa fa-gavel"></i>
 				</div>
 				<div class="col-lg-3">
-					<h3>Resepect The Process</h3>
-					<p>My pledge to you, if elected, is that if ever there would come a time that I no longer enjoy working for the citizens of Kenton County or protecting due process standards in criminal cases, I will not seek reelection.</p>
+					{% include highlight-1.html %}
 				</div>
 
 				<div class="col-lg-1 centered">
 					<i class="fa fa-bullhorn"></i>
 				</div>
 				<div class="col-lg-3">
-					<h3>Respect for Advocacy</h3>
-					<p>I believe lawyers are most effective when they are champions of the truth.  Good lawyers discover the truth - great ones lead others to it.  The best judges let them.</p>
+					{% include highlight-2.html %}
+
 				</div>
 				<div class="col-lg-1 centered">
 					<i class="fa fa-ban"></i>
 				</div>
 				<div class="col-lg-3">
-					<h3>Not Accepting Fundraising</h3>
-					<p>This candidacy is an opportunity for me.  I feel most comfortable seeking the opportunity to serve as judge by asking for your vote without also asking that you cover the costs of me earning your vote.</p>
+					{% include highlight-3.html %}
 				</div>
 			
 			</div><!-- row -->
@@ -69,7 +61,7 @@ title: Christopher Nordloh
 		<div class="row mt">
 			<div class="col-lg-12">
 				<h1>Profile</h1>
-				<p>A quick blurb that introduces Chris.</p>
+				{% include profile-excerpt.html %}
 			</div><!-- col-lg-12 -->
 			<div class="col-lg-4">
 				<img src="img/nordloh_family_opti.jpg" alt="Nordloh Family Picture" />
@@ -78,7 +70,7 @@ title: Christopher Nordloh
 				<h4>Why are you running?</h4>
 				<div class="quote">
 					<div class="pointer">
-						<p>I have served in capacity as asst county attorney in kenton county since 1999.  I have tried hundreds of cases and argued issues at every level of state appellate courts.  I want to aplly my experience and passion for the law as judge in kenton county where i grew up and have lived my entire life.  I am challenging the division i incumbent judge because if elected i will be more steady and predictable when applying the law to the facts of the cases being presented than what has been my experience in that division.</p>
+						{% include profile-question-1.html %}
 					</div>
 					<div class="pointerBorder" style="display: none"> </div>
 				</div>
