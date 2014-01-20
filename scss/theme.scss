@@ -194,7 +194,7 @@ hr {
 }
 
 #headerwrap {
-    background: url(../img/kenton-county-court-house.jpg) no-repeat center top;
+    background: url(../img/kenton-county-court-house-opti.jpg) no-repeat center top;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -555,4 +555,21 @@ hr {
     transform: translateY(0);
     opacity: 1;
 }
+}
+
+.quote {position: relative; background-color: $brand-2; padding: 20px;font-size: 16px; line-height: 20px; color:#fff; margin-top: 30px;}
+
+.quote:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 20px 21px;
+border-color: $brand-2 transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -20px;
+top: -21px;
+left: 15%;
 }

@@ -18,7 +18,6 @@ module.exports = function(grunt) {
     jekyll: {
       server : {
               dest: '_site',
-              baseurl: '.',
       },
     },  
     watch: {
@@ -48,7 +47,6 @@ module.exports = function(grunt) {
           },
           server: {
             baseDir: '_site',
-            baseurl: '.',
           }
         }
       },
