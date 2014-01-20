@@ -1,0 +1,19 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<div class="jumbotron">
+  <h1>Crossroads Lab</h1>
+  <p>Welcome to the crossroads lab where we talk about and share the web technologies and solutions we're implementing (hopefully).</p>
+  <p><a class="btn btn-primary btn-lg" role="button" href="/about.html">Learn more</a></p>
+</div>
+
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
