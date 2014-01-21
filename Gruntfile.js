@@ -29,7 +29,7 @@ module.exports = function(grunt) {
         tasks: ['sass']
       },
       jekyll: {
-          files: ['*.html', '_layouts/*.html', '_includes/*.html', '_post/*.html', 'img/*'],
+          files: ['*.html', '_layouts/*.html', '_includes/*.md', '_post/*.html', 'img/*'],
           tasks: ['jekyll']
       }   
     },

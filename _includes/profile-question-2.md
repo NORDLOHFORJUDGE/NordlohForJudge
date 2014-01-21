@@ -1,0 +1,1 @@
+My experience in trying cases and legal writing is extensive.  I also know from being in private practice for 20 years that its more important to resolve cases correctly and get it right than necessarily in a hurry.

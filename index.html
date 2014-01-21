@@ -8,7 +8,8 @@ title: Christopher Nordloh
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1" id="responsive_headline">
-					{% markdown header.md %}
+					{% capture header %}{% include header.md %}{% endcapture %}
+					{{ header | markdownify }}
 					<div class="spacer"></div>
 					<i class="fa fa-angle-down"></i>
 				</div>
@@ -20,11 +21,12 @@ title: Christopher Nordloh
     <div class="container">
       <div class="row mt">
       	<div class="col-lg-8 col-lg-offset-2">
-      		{% include welcome.html %}
+			{% capture welcome %}{% include welcome.md %}{% endcapture %}
+			{{ welcome | markdownify }}
+			<p class="pull-right">-Chris Nordloh</p>   	
       	</div>
       </div><!-- /row -->
     </div><!-- /.container -->
-    
 
 	<!-- Highlights SECTION -->
 	<div id="services">
@@ -34,34 +36,34 @@ title: Christopher Nordloh
 					<i class="fa fa-gavel"></i>
 				</div>
 				<div class="col-lg-3">
-					{% include highlight-1.html %}
+					{% capture highlight1 %}{% include highlight-1.md %}{% endcapture %}
+					{{ highlight1 | markdownify }}
 				</div>
-
 				<div class="col-lg-1 centered">
 					<i class="fa fa-bullhorn"></i>
 				</div>
 				<div class="col-lg-3">
-					{% include highlight-2.html %}
-
+					{% capture highlight2 %}{% include highlight-2.md %}{% endcapture %}
+					{{ highlight2 | markdownify }}
 				</div>
 				<div class="col-lg-1 centered">
 					<i class="fa fa-ban"></i>
 				</div>
 				<div class="col-lg-3">
-					{% include highlight-3.html %}
-				</div>
-			
+					{% capture highlight3 %}{% include highlight-3.md %}{% endcapture %}
+					{{ highlight3 | markdownify }}
+				</div>			
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- services section -->
-	
 
 	<!-- Profile -->
 	<div class="container">
 		<div class="row mt">
 			<div class="col-lg-12">
 				<h1>Profile</h1>
-				{% include profile-excerpt.html %}
+				{% capture profile_excerpt %}{% include profile-excerpt.md %}{% endcapture %}
+				{{ profile_excerpt | markdownify }}
 			</div><!-- col-lg-12 -->
 			<div class="col-lg-4">
 				<img src="img/nordloh_family_opti.jpg" alt="Nordloh Family Picture" />
@@ -70,7 +72,8 @@ title: Christopher Nordloh
 				<h4>Why are you running?</h4>
 				<div class="quote">
 					<div class="pointer">
-						{% include profile-question-1.html %}
+						{% capture profile_question1 %}{% include profile-question-1.md %}{% endcapture %}
+						{{ profile_question1 | markdownify }}
 					</div>
 					<div class="pointerBorder" style="display: none"> </div>
 				</div>
@@ -78,86 +81,30 @@ title: Christopher Nordloh
 				<h4>What makes you uniquely qualified?</h4>
 				<div class="quote">
 					<div class="pointer">
-						<p>My experience in trying cases and legal writing is extensive.  I also know from being in private practice for 20 years that its more important to resolve cases correctly and get it right than necessarily in a hurry.</p>
+						{% capture profile_question2 %}{% include profile-question-2.md %}{% endcapture %}
+						{{ profile_question2 | markdownify }}
 					</div>
-					<div class="pointerBorder" style="display: none"> </div>
+					<div class="pointerBorder" style="display: none"></div>
 				</div>
 				<br>
 			</div><!-- col-lg-4-->
-			<div class="col-lg-8">
-				<h2>EMPLOYMENT HISTORY</h2>
-				<h3>1994 – Present: <small>Sole practitioner d/b/a/ Nordloh Law Office and Nordloh Law Office PLLC</small></h3>
-				<p><strong>Civil litigation</strong></p>
-				<ul>
-					<li>Representation of tax payers in refund cases prosecuted as state-wide class actions. The litigation has resulted in refunds to thousands of Kentucky property owners and legislation to improve the means and accuracy of local government insurance premium tax collection.</li>
-					<li>Representation of Kenton County, its chief of police, jailer, police officers and deputies in federal and state court actions involving allegations of civil rights violations.</li>
-					<li>Present and defend cases on behalf of other local governments and agencies, and many private sector clients, to judges, juries, mediators, and administrative hearing officers.</li>
-					<li>Present issues on appeal on behalf of clients to the Kentucky Supreme Court, Kentucky Court of Appeals and United States Court of Appeals for the Sixth Circuit. Qualified and admitted as an attorney and counselor of the United States Supreme Court in October 2006.</li>
-				</ul>
-
-				<h3>1999 – Present: <small>SAssistant Kenton County Attorney</small></h3>
-				<p><strong>Criminal prosecution</strong></p>
-				<ul>
-					<li>Extensive trial and appellate work 	</li>
-					<li>Trial counsel for the Commonwealth in hundreds of criminal prosecutions</li>
-					<li>Extensive writing on constitutional law issues, appellate procedure, writs of prohibition and mandamus, and certifications of law to the Kentucky Supreme Court.  Argue issues on appeal to Kenton Circuit Court, Kentucky Court of Appeals and Kentucky Supreme Court</li>
-				</ul>
-				<p><strong>Policy and Procedure Reviews</strong></p>
-				<ul>
-					<li>Assist Kenton County with drafting policies and procedures concerning use of force standards when making arrests and policies applicable to prisoners incarcerated in the Kenton County Detention Center</li>
-				</ul>
-
-				<h2>EDUCATION</h2>
-				<ul>
-					<li>Park Hills Elementary Gr. 1-5</li>
-					<li>Saint Agnes Gr. 6-8</li>
-					<li>1986: Covington Catholic High School</li>
-					<li>1990: Thomas More College</li>
-					<li>1994: Salmon P. Chase College of Law</li>
-				</ul>
-
-				<h2>LICENSURE AND AFFILIATIONS</h2>
-				<ul>
-					<li>Kentucky Bar Association # 85716</li>
-					<li>Ohio Bar Association # 0064084</li>
-					<li>Admitted United States Supreme Court</li>
-					<li>Admitted United States Court of Appeals for Sixth Circuit</li>
-					<li>Admitted United States District Court, Eastern District of Kentucky</li>
-					<li>State and local Bar Associations</li>
-				</ul>
-
-				<h2>FAMILY</h2>
-				<ul>
-					<li>Parents are Walter and Joan Nordloh (Maiden name England)</li>
-					<li>Brother Dan Nordloh resides with his family in Milwaukee WI</li>
-					<li>Grew up in Fort Wright on Kentucky Drive (host to the World Series of Wiffle Ball, every summer day) </li>
-					<li>Married to DeLaina Smith Nordloh since 1998</li>
-					<li>Children Abbygail (13) and Lilli (10)</li>
-					<li>Reside in Villa Hills, Kentucky</li>
-					<li>Parishioner at Saint Joseph’s Church, Crescent Springs KY</li>
-					<li>Knights of Columbus Kehoe Council</li>
-				</ul>
+			<div class="col-lg-7 col-lg-offset-1">
+				{% capture profile %}{% include profile.md %}{% endcapture %}
+				{{ profile | markdownify }}		
 				<p><a href="assets/profile.pdf"><i class="fa fa-download"></i> Download Official Profile</a>
 				<br>
 			</div><!-- col-lg-8-->
 		</div><!-- row -->	
 	</div><!-- container -->
 
-		
+
 	<!-- MEDIA RELEASE -->
 	<div id="lg">
 		<div class="container" >
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<h1>Media Release</h1>
-					<p>Please know that I am a candidate to serve as Kenton County District Court Judge, Div. I.  Please take a minute to review my profile and qualifications to serve as judge.</p>
-				</div><!-- col-lg-12 -->
-				<div class="col-lg-8 col-lg-offset-2">
-					<p>As a candidate, I will communicate with voters in a manner that is visible and compelling enough to hopefully earn your vote.  I will work hard to show voters that, if elected, my twenty years experience of preparing and trying cases will serve the judgeship and public equally well.  If elected, my philosophy as written in my law firm’s mission statement, that has served my client’s well, will continue to guide my work.</p>
-					<p><strong>RESPECT THE PROCESS</strong> - When you like what you do, people are going to like the way you do it.  It’s true.  Conversely, if you dislike the work or become intolerant of the process, people are generally not going to like the way the job is being handled.   My pledge to you, if elected, is that if ever there would come a time that I no longer enjoy working for the citizens of Kenton County or protecting due process standards in criminal cases, I will not seek reelection.</p>
-					<p><strong>RESPECT FOR ADVOCACY</strong> - Be direct about what is true, right and fair when representing clients and presenting cases to juries.  I believe lawyers are most effective when they are champions of the truth.  Good lawyers discover the truth - great ones lead others to it.  The best judges let them.</p>
-					<p>This election, like most job interviews, will give you the opportunity to decide which candidate you believe is best qualified and suited for the job.  I will make every effort to meet and speak with the majority of you who will decide this question. When it is time to vote, I hope that you believe that I am the best choice to serve as Kenton District Court Judge Div. I next term.  I will be asking for your vote.</p>
-					<p>Meanwhile, it is important to me for you to know that I will not be asking for, or accepting, any fundraising contributions.  Likewise, no committees or friends will be soliciting or accepting money on my behalf.  This decision was the first one I made as a candidate.  This candidacy is an opportunity for me.  I feel most comfortable seeking the opportunity to serve as judge by asking for your vote without also asking that you cover the costs of me earning your vote. </p>
+					{% capture media %}{% include media.md %}{% endcapture %}
+					{{ media | markdownify }}					
 					<p><a href="assets/press-release.pdf"><i class="fa fa-download"></i> Download Official Release</a>
 				</div>
 			</div><!-- row -->
@@ -170,8 +117,8 @@ title: Christopher Nordloh
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 centered">
-					<h3>Join our mailing list</h3>
-					<p>Stay up to date on the latest in the campaign.</p>
+					{% capture mailing_list %}{% include mailing-list.md %}{% endcapture %}
+					{{ mailing_list | markdownify }}	
 					<form role="form">
 					  <div class="form-group">
 					    <label for="exampleInputEmail1 pull-left">You Email Address</label>
@@ -187,8 +134,8 @@ title: Christopher Nordloh
 	<div class="container">
 		<div class="row mt">
 			<div class="col-lg-12">
-				<h1>Stay Connected</h1>
-				<p>Join me on social networks for all the latest updates and campaign announcements.</p>
+				{% capture social %}{% include social.md %}{% endcapture %}
+				{{ social | markdownify }}				
 				<br>
 			</div><!-- col-lg-12 -->
 		</div><!-- row -->
@@ -230,24 +177,13 @@ title: Christopher Nordloh
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 contact">
-					<h4>ADDRESS: Head Office</h4>
-					<br>
-					<p>
-						Business Center, SomeAve 987,<br/>
-						Florence, KY 41017
-					</p>
-					<p>
-						P: 859 4839-4390<br/>
-						F: 859 4333-4345<br/>
-						E: <a href="mailto:chris@nordlohforjudge.com">chris@nordlohforjudge.com</a>
-					</p>
-					<p>Paid for by Christopher S. Nordloh</p>
-					<a href="https://kuler.adobe.com/Autumn-2-color-theme-3399947/" >colors</a>
+					{% capture contact %}{% include contact.md %}{% endcapture %}
+					{{ contact | markdownify }}					
 				</div><!--col-lg-4-->
 				<div class="col-lg-8">
 		        	<div id="disqus">
-						<h2>Ask me a question</h2>
-						<p>I believe in being transparent and addressing the concerns of my voters. Please participate by asking a question here and I'll be sure to respond.</p>
+						{% capture ask %}{% include ask.md %}{% endcapture %}
+						{{ ask | markdownify }}
 					    <div id="disqus_thread"></div>
 					    <script type="text/javascript">
 					        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -260,8 +196,7 @@ title: Christopher Nordloh
 					            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 					        })();
 					    </script>
-					    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-					    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+					    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments.</a></noscript>
 					</div>	
 				</div><!--col-lg-8-->
 			</div><!-- row -->
