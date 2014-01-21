@@ -1,1 +1,1 @@
-A quick blurb that introduces Chris.
+A quick blurb that introduces Chris for people who will not read the information below.
