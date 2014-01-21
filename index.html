@@ -119,13 +119,26 @@ title: Christopher Nordloh
 				<div class="col-lg-6 col-lg-offset-3 centered">
 					{% capture mailing_list %}{% include mailing-list.md %}{% endcapture %}
 					{{ mailing_list | markdownify }}	
-					<form role="form">
-					  <div class="form-group">
-					    <label for="exampleInputEmail1 pull-left">You Email Address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-					  </div>
-					  <button type="submit" class="btn btn-primary btn-lg">Sign Up</button>
+
+					<!-- Begin MailChimp Signup Form -->
+					<div id="mc_embed_signup">
+					<form role="form" action="http://NORDLOHFORJUDGE.us3.list-manage.com/subscribe/post?u=64f19a7683378d25a7ae608fc&amp;id=ed910bcf71" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						
+					<div class="mc-field-group form-group">
+						<label for="mce-EMAIL">Your Email Address </label>
+						<input type="email" class="form-control" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter email">
+					</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_64f19a7683378d25a7ae608fc_ed910bcf71" value=""></div>
+						<div class="clear">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg">
+						</div>
 					</form>
+					</div>
+					<!--End mc_embed_signup-->
 				</div>
 			</div><!-- row -->
 		</div><!-- container -->
