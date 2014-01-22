@@ -7,7 +7,7 @@
 *   Representation of tax payers in refund cases prosecuted as state-wide class actions. The litigation has resulted in refunds to thousands of Kentucky property owners and legislation to improve the means and accuracy of local government insurance premium tax collection.
 *   Representation of Kenton County, its chief of police, jailer, police officers and deputies in federal and state court actions involving allegations of civil rights violations.
 *   Present and defend cases on behalf of other local governments and agencies, and many private sector clients, to judges, juries, mediators, and administrative hearing officers.
-*   Present issues on appeal on behalf of clients to the Kentucky Supreme Court, Kentucky Court of Appeals and United States Court of Appeals for the Sixth Circuit. Qualified and admitted as an attorney and counselor of the United States Supreme Court in October 2006.
+*   Present issues on appeal on behalf of clients to the Kentucky Supreme Court, Kentucky Court of Appeals and United States Court of Appeals for the Sixth Circuit. Qualified and admitted as an attorney and counselor to the United States Supreme Court in October 2006.
 
 ### 1999 – Present: <small>SAssistant Kenton County Attorney</small>
 
@@ -41,7 +41,8 @@
 
 *   Parents are Walter and Joan Nordloh (Maiden name England)
 *   Brother Dan Nordloh resides with his family in Milwaukee WI
-*   Grew up in Fort Wright on Kentucky Drive (host to the World Series of Wiffle Ball, every summer day)*   Married to DeLaina Smith Nordloh since 1998
+*   Grew up in Fort Wright on Kentucky Drive (host to the World Series of Wiffle   	Ball, every summer day)
+*   Married to DeLaina Smith Nordloh since 1998
 *   Children Abbygail (13) and Lilli (10)
 *   Reside in Villa Hills, Kentucky
 *   Parishioner at Saint Joseph’s Church, Crescent Springs KY
