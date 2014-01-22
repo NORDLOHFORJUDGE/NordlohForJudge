@@ -2,4 +2,4 @@
 
 ### Another Header
 
-I believe in being transparent and addressing the concerns of my voters. Please participate by asking a question here and I'll be sure to respond.
+Please participate in my campaign by asking a question here.  I will respond to you.
