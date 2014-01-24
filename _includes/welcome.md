@@ -1,1 +1,1 @@
-##  I will work hard to show voters that, if elected, my twenty years experience of preparing and trying cases will serve the judgeship and public equally well.
+##  **### I will work hard to show voters that, if elected, my twenty years experience of preparing and trying cases will serve the judgeship and public equally well.**
