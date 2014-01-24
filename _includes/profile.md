@@ -4,7 +4,7 @@
 
 **Civil litigation**
 
-*   Representation of tax payers in refund cases prosecuted as state-wide class actions. The litigation has resulted in refunds to thousands of Kentucky property owners and legislation to improve the means and accuracy of local government insurance premium tax collection.
+*   Representation of tax payers in tax refund cases prosecuted as state-wide class actions. The litigation has resulted in refunds to thousands of Kentucky property owners and legislation to improve the means and accuracy of local government insurance premium tax collection.
 *   Representation of Kenton County, its chief of police, jailer, police officers and deputies in federal and state court actions involving allegations of civil rights violations.
 *   Present and defend cases on behalf of other local governments and agencies, and many private sector clients, to judges, juries, mediators, and administrative hearing officers.
 *   Present issues on appeal on behalf of clients to the Kentucky Supreme Court, Kentucky Court of Appeals and United States Court of Appeals for the Sixth Circuit. Qualified and admitted as an attorney and counselor to the United States Supreme Court in October 2006.
