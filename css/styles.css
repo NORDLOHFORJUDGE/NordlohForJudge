@@ -6496,7 +6496,7 @@ hr {
   transition: all .1s ease-in-out; }
 
 #headerwrap {
-  background: url(../img/kenton-county-court-house-opti.jpg) no-repeat center top;
+  background: #2f2f2f url(../img/kenton-county-court-house-opti.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;

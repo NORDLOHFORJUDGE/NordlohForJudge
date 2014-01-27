@@ -2,3 +2,4 @@ name: Christopher Nordloh For Judge
 markdown: redcarpet
 pygments: true
 baseurl: "http://nordlohforjudge.github.io/NordlohForJudge"
+exclude: [node_modules, scss]
