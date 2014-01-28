@@ -3,10 +3,216 @@ layout: default
 title: Christopher Nordloh
 ---
 
+	<!-- MAIN IMAGE SECTION -->
+	<div id="headerwrap">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1 centered">
-					<h1>Coming Soon</h1>
+				<div class="col-lg-10 col-lg-offset-1" id="responsive_headline">
+					{% capture header %}{% include header.md %}{% endcapture %}
+					{{ header | markdownify }}
+					<div class="spacer"></div>
+					<i class="fa fa-angle-down"></i>
 				</div>
 			</div><!-- row -->
 		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- WELCOME SECTION -->
+    <div class="container">
+      <div class="row mt">
+      	<div class="col-lg-8 col-lg-offset-2">
+			{% capture welcome %}{% include welcome.md %}{% endcapture %}
+			{{ welcome | markdownify }}
+			<p class="pull-right">-Chris Nordloh</p>   	
+      	</div>
+      </div><!-- /row -->
+    </div><!-- /.container -->
+
+	<!-- Highlights SECTION -->
+	<div id="services">
+		<div class="container">
+			<div class="row mt">
+				<div class="col-lg-1 centered">
+					<i class="fa fa-gavel"></i>
+				</div>
+				<div class="col-lg-3">
+					{% capture highlight1 %}{% include highlight-1.md %}{% endcapture %}
+					{{ highlight1 | markdownify }}
+				</div>
+				<div class="col-lg-1 centered">
+					<i class="fa fa-bullhorn"></i>
+				</div>
+				<div class="col-lg-3">
+					{% capture highlight2 %}{% include highlight-2.md %}{% endcapture %}
+					{{ highlight2 | markdownify }}
+				</div>
+				<div class="col-lg-1 centered">
+					<i class="fa fa-ban"></i>
+				</div>
+				<div class="col-lg-3">
+					{% capture highlight3 %}{% include highlight-3.md %}{% endcapture %}
+					{{ highlight3 | markdownify }}
+				</div>			
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- services section -->
+
+	<!-- Profile -->
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				<h1>Profile</h1>
+				{% capture profile_excerpt %}{% include profile-excerpt.md %}{% endcapture %}
+				{{ profile_excerpt | markdownify }}
+			</div><!-- col-lg-12 -->
+			<div class="col-lg-4">
+				<img src="img/nordloh_family_opti.jpg" alt="Nordloh Family Picture" />
+				<br>
+				<br>
+				<h4>Why are you running?</h4>
+				<div class="quote">
+					<div class="pointer">
+						{% capture profile_question1 %}{% include profile-question-1.md %}{% endcapture %}
+						{{ profile_question1 | markdownify }}
+					</div>
+					<div class="pointerBorder" style="display: none"> </div>
+				</div>
+				<br>
+				<h4>What makes you uniquely qualified?</h4>
+				<div class="quote">
+					<div class="pointer">
+						{% capture profile_question2 %}{% include profile-question-2.md %}{% endcapture %}
+						{{ profile_question2 | markdownify }}
+					</div>
+					<div class="pointerBorder" style="display: none"></div>
+				</div>
+				<br>
+			</div><!-- col-lg-4-->
+			<div class="col-lg-7 col-lg-offset-1">
+				{% capture profile %}{% include profile.md %}{% endcapture %}
+				{{ profile | markdownify }}		
+				<p><a href="assets/profile.pdf"><i class="fa fa-download"></i> Download Official Profile</a>
+				<br>
+			</div><!-- col-lg-8-->
+		</div><!-- row -->	
+	</div><!-- container -->
+
+
+	<!-- MEDIA RELEASE -->
+	<div id="lg">
+		<div class="container" >
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					{% capture media %}{% include media.md %}{% endcapture %}
+					{{ media | markdownify }}					
+					<p><a href="assets/press-release.pdf"><i class="fa fa-download"></i> Download Official Release</a>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- dg -->
+	
+	
+	<!-- CALL TO ACTION -->
+	<div id="call">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3 centered">
+					{% capture mailing_list %}{% include mailing-list.md %}{% endcapture %}
+					{{ mailing_list | markdownify }}	
+
+					<!-- Begin MailChimp Signup Form -->
+					<div id="mc_embed_signup">
+					<form role="form" action="http://NORDLOHFORJUDGE.us3.list-manage.com/subscribe/post?u=64f19a7683378d25a7ae608fc&amp;id=ed910bcf71" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						
+					<div class="mc-field-group form-group">
+						<label for="mce-EMAIL">Your Email Address </label>
+						<input type="email" class="form-control" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter email">
+					</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_64f19a7683378d25a7ae608fc_ed910bcf71" value=""></div>
+						<div class="clear">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-lg">
+						</div>
+					</form>
+					</div>
+					<!--End mc_embed_signup-->
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Call to action -->
+	
+	<div class="container">
+		<div class="row mt">
+			<div class="col-lg-12">
+				{% capture social %}{% include social.md %}{% endcapture %}
+				{{ social | markdownify }}				
+				<br>
+			</div><!-- col-lg-12 -->
+		</div><!-- row -->
+	</div><!-- container -->
+	
+	
+	<!-- SOCIAL FOOTER -->
+	<section id="contact"></section>
+	<div id="sf">
+		<div class="container">
+			<div class="row">
+				<a href="https://www.facebook.com/Nordlohforjudge">
+				<div class="col-lg-4 dg">
+					<h4 class="ml">FACEBOOK</h4>
+					<p class="centered"><i class="fa fa-facebook"></i></p>
+					<p class="ml">> Become A Friend</p>
+				</div>
+				</a>
+				<a href="https://twitter.com/NordlohForJudge">				
+				<div class="col-lg-4 lg">
+					<h4 class="ml">TWITTER</h4>
+					<p class="centered"><i class="fa fa-twitter"></i></p>
+					<p class="ml">> Follow Me</p>
+				</div>
+				</a>
+				<a href="https://plus.google.com/u/2/115986283912400665432">
+				<div class="col-lg-4 dg">
+					<h4 class="ml">GOOGLE +</h4>
+					<p class="centered"><i class="fa fa-google-plus"></i></p>
+					<p class="ml">> Add Me To Your Circle</p>
+				</div>
+				</a>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Social Footer -->
+	
+	<!-- CONTACT FOOTER -->
+	<div id="cf">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 contact">
+					{% capture contact %}{% include contact.md %}{% endcapture %}
+					{{ contact | markdownify }}					
+				</div><!--col-lg-4-->
+				<div class="col-lg-8">
+		        	<div id="disqus">
+						{% capture ask %}{% include ask.md %}{% endcapture %}
+						{{ ask | markdownify }}
+					    <div id="disqus_thread"></div>
+					    <script type="text/javascript">
+					        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					        var disqus_shortname = 'nordlohnordlohforjudgeforjudge'; // required: replace example with your forum shortname
+
+					        /* * * DON'T EDIT BELOW THIS LINE * * */
+					        (function() {
+					            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					        })();
+					    </script>
+					    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments.</a></noscript>
+					</div>	
+				</div><!--col-lg-8-->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- Contact Footer -->
+	
