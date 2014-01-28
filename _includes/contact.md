@@ -5,6 +5,6 @@
 Villa Hills, KY 41017
 
 P: 859  866-2529  
-E: [nordlohforjudge@gmail.com](mailto:cnordlohforjudge@gmail.com)
+E: [nordlohforjudge@gmail.com](mailto:nordlohforjudge@gmail.com)
 
 Paid for by Chris Nordloh
