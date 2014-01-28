@@ -9,7 +9,7 @@
 *   Present and defend cases on behalf of other local governments and agencies, and many private sector clients, to judges, juries, mediators, and administrative hearing officers.
 *   Present issues on appeal on behalf of clients to the Kentucky Supreme Court, Kentucky Court of Appeals and United States Court of Appeals for the Sixth Circuit. Qualified and admitted as an attorney and counselor to the United States Supreme Court in October 2006.
 
-### 1999 – Present: <small>SAssistant Kenton County Attorney</small>
+### 1999 – Present: <small>Assistant Kenton County Attorney</small>
 
 **Criminal prosecution**
 
