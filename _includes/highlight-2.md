@@ -1,3 +1,3 @@
 ### Respect for Advocacy
 
-I believe lawyers are most effective when they are champions of the truth.  Good lawyers discover the truth - great ones lead others to it.  The best judges let them.
+I believe lawyers are most effective when they are champions of the truth.  Good lawyers discover the truth - great ones lead others to it. The best judges let them.  Participants in the legal process and those affected by it rightfully expect judges to be well-informed of the law and to demonstrate disciplined adherence to the law.  It is time for a renewed commitment to these expectations in Kenton District Court, Div. I.  I will commit my 20 years experience, and still growing enthusiasm for the law, to meet the expectations and demands of this judgeship.
