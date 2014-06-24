@@ -1,3 +1,3 @@
 ### Not Accepting Fundraising
 
-This candidacy is an opportunity for me.  I feel most comfortable seeking the opportunity to serve as judge by asking for your vote without also asking that you cover the costs of me working for your vote.
+For judges, there should always be an appearance and actuality of fairness and impartiality.  That is why I am not asking for, or accepting, any fundraising contributions.  My wife DeLaina and I are funding my campaign because the relationships we value are not reflected on money donor lists.  This decision helps us focus on the values we want to be relevant in this election.  Raising the bar of impartiality is the first commitment I made as a judicial candidate.
