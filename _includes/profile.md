@@ -40,7 +40,7 @@
 ## FAMILY
 
 *   Parents are Walter and Joan Nordloh (Maiden name England)
-*   Brother Dan Nordloh resides with his family in Milwaukee WI
+*   Brother Dan Nordloh and his family reside in Wisconsin
 *   Grew up in Fort Wright on Kentucky Drive (host to the World Series of Wiffle   	Ball, every summer day)
 *   Married to DeLaina Smith Nordloh since 1998
 *   Children Abbygail (13) and Lilli (10)
